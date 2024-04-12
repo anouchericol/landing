@@ -1,0 +1,57 @@
+.card-container {
+    justify-content: space-between; /* Espacement réparti uniformément */
+}
+
+.card {
+    flex: 0 0 30%; /* Adaptation pour deux cartes par ligne */
+    border: 1px solid #8a817c; /* Bordure ajoutée pour la définition */
+    height: 350px; /* Hauteur ajustée pour une meilleure proportion */
+    background: #f0efeb; /* Fond de carte plus clair pour se démarquer du fond */
+    cursor: pointer;
+}
+
+.card-image img {
+    height: 250px; /* Hauteur d'image ajustée */
+}
+
+.card-title {
+    background-color: #8a817c; /* Harmonisation avec la couleur de l'en-tête */
+    color: #ffffff;
+    padding: 10px 0; /* Rembourrage accru pour un meilleur équilibre */
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.card h2 {
+    font-size: 1.5em; /* Taille de police augmentée pour plus de visibilité */
+}
+
+.card-link {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Assurez-vous que cette transition est appliquée à .card, pas à .card-link */
+}
+
+.card:hover,
+.card:focus { /* L'effet de survol doit être appliqué à .card pour que la transformation s'effectue sur l'ensemble de la carte */
+    transform: translateY(-5px); /* Déplace la carte vers le haut de 5 pixels */
+    box-shadow: 0 12px 20px rgba(0,0,0,0.25); /* Ombre plus profonde pour un effet de flottement */
+}
+.card-description {
+    padding: 10px;
+    display: none; /* Cachez initialement la description */
+    font-size: 1.5rem;
+    background-color: #8a817c;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-title h2 {
+    text-align: center; /* Centre le titre dans la carte */
+}
+
+.card-image {
+    display: flex; /* Utilise Flexbox pour centrer l'image */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}

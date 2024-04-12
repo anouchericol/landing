@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les grandes marques</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <header>
+        <h1>Les plus grandes marques de mode</h1>
+        <p> Je vous disais que j'adore la mode, alors voici selon moi les plus grandes marque de mode (ainsi qu'une petite description de celles-ci)</p>
+    </header>
+    <main>
+        <section class="card-container">
+            <article class="card" id="chanel-card" onclick="displayDescription(this, 'chanel')">
+              <div class="card-image">
+                <img src="channel.png" alt="Chanel">
+              </div>
+              <div class="card-title">
+                <h2>Chanel</h2>
+              </div>
+              <div class="card-description" style="display: none;"></div>
+            </article>
+            
+            <article class="card" id="dior-card" onclick="displayDescription(this, 'dior')">
+              <div class="card-image">
+                <img src="dior.png" alt="Dior">
+              </div>
+              <div class="card-title">
+                <h2>Dior</h2>
+              </div>
+              <div class="card-description" style="display: none;"></div>
+            </article>
+            
+            <article class="card" id="lv-card" onclick="displayDescription(this, 'lv')">
+              <div class="card-image">
+                <img src="louis.png" alt="Louis Vuitton">
+              </div>
+              <div class="card-title">
+                <h2>Louis Vuitton</h2>
+              </div>
+              <div class="card-description" style="display: none;"></div>
+            </article>
+            
+            <article class="card" id="margiela-card" onclick="displayDescription(this, 'margiela')">
+              <div class="card-image">
+                <img src="maison_margiela.jpg" alt="Maison Margiela">
+              </div>
+              <div class="card-title">
+                <h2>Maison Margiela</h2>
+              </div>
+              <div class="card-description" style="display: none;"></div>
+            </article>
+          </section>      
+          <div id="description-box" class="description-box"><!-- La description s'affichera ici --></div>        
+    </main>
+    <footer>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    font-family: 'Times New Roman', serif; /* Changement de la police pour une sensation plus classique */
+    background: #eae2d6; /* Couleur de fond plus douce et neutre */
+    justify-content: center;
+}
+
+header {
+    background: #8a817c; /* Teinte terre cuite pour une ambiance différente */
+    color: #e9ecef; /* Couleur de texte légèrement modifiée pour un meilleur contraste */
+    padding: 20px 0; /* Plus de rembourrage pour un look plus spacieux */
+}
+
+h1 {
+    font-size: 3.5rem; /* Taille de la police augmentée pour une déclaration plus audacieuse */
+    font-weight: bold; /* Rendre le texte de l'en-tête plus audacieux */
+}
+
+footer {
+    background: #f3f3f3; /* Couleur de fond sombre pour le contraste */
+    padding: 20px 0; /* Aligner le rembourrage avec l'en-tête */
+    height: 100PX;;
+}
+
+header p {
+    color: #e5e5e5; /* Couleur de police douce qui correspond à la palette de couleurs générale */
+    font-size: 1.5rem; /* Ajustement de la taille de la police pour l'équilibre */
+}
